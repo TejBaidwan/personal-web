@@ -11732,3 +11732,31 @@ html {
     left: -2vw;
   }
 }
+
+/*Hover styles for the skill cards*/
+.transition-hover {
+  transition: transform 0.5s ease, var(--bs-card-box-shadow) 0.5s ease;
+}
+
+.transition-hover:hover {
+  transform: scale(1.10);
+  background-color: lightblue; 
+}
+
+/*Hover styles for the top-left welcome*/
+.hover-scale-icon {
+  transition: transform 0.5s ease-in-out;
+}
+
+.hover-scale-icon:hover {
+  transform: scale(1.2);
+}
+
+/*Hover styles for the buttons*/
+.hover-scale-button {
+  transition: transform 0.8s ease-in-out;
+}
+
+.hover-scale-button:hover {
+  transform: scale(1.15);
+}
